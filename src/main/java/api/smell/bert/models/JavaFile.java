@@ -34,4 +34,13 @@ public class JavaFile {
     public void setCode(String code) {
         this.code = code;
     }
+
+    @Override
+    public String toString() {
+        return "JavaFile{" +
+                "name='" + name + '\'' +
+                ", path='" + path + '\'' +
+                ", code='" + code + '\'' +
+                '}';
+    }
 }
